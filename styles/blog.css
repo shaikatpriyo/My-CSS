@@ -1,0 +1,12 @@
+
+
+
+header{
+    /* background-color: antiquewhite; */
+    height: 300px;
+    background-image: url(../biriyani.jpg);
+    background-size: contain;
+    font-size: larger;
+    font-weight: 600;
+    color: aliceblue;
+}
