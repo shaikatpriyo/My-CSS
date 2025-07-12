@@ -6,6 +6,9 @@
     <link rel="shortcut icon" href="home.png" type="image/x-icon">
     <title>Mixed Selectors</title>
     <style>
+            *{
+                margin: 0;
+            }
         .holud, .yellow{
             background-color: yellow;
             font-size: smaller;
@@ -20,11 +23,21 @@
             color: rgba(127, 255, 212, 0.523);
             background-color: black;
         }
+        input[type="password"]{
+            font-size: 30px;
+            color: red;
+        }
+        span{
+            color: red;
+        }
+        .new{
+            background-color: aquamarine;
+        }
     </style>
 </head>
 <body>
     <h3>Explore mixed Selectors</h3>
-<p class="yellow bold">Notun Selectors Shikhchi</p>
+<p class="yellow bold">Notun <span>Selectors Shikhchi</span></p>
 <p>Vaii ki hobe janinna</p>
 <p class="bold">Dekha jak ki hoy</p>
 <p class="background-color">Dekha jak ki hoy</p>
@@ -38,5 +51,16 @@
     <li>orange</li>
 </ol>
 
+<form action="Student">
+    <input type="text">
+    <br>
+    <input type="password" name="" id="">
+</form>
+
+<div class="new">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, deserunt. Quis maiores neque pariatur laborum esse odit voluptates dignissimos aliquid, quod quibusdam, sit repellat, beatae doloremque veniam mollitia tenetur voluptatum.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, cupiditate sapiente voluptates eveniet commodi at veritatis iure aspernatur autem? Aliquam temporibus, fugiat doloremque suscipit maxime architecto necessitatibus provident sunt mollitia.</p>
+</div>
 </body>
 </html>
