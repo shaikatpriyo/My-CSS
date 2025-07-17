@@ -1,60 +1,48 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flexbox Banai</title>
+    <title>My flexbox</title>
     <style>
         .container{
+            border: 2px solid salmon;
             display: flex;
+            justify-content: space-between;
+            align-items:center; */
+            /* flex-direction:row-reverse ; */
+            flex-wrap:wrap ;
+            height: 250px;
         }
-        .container div{
-            border: 5px solid tomato;
-            font-size: 5em
-            
+
+        
+        .box{
             width: 300px;
-        }
-
-        .user div{ 
-           
-            background-color: aquamarine;
-            border: 5px solid blue;
-            font-size: larger;
-            display: flex;
-
-
-
+            height: 200px;
+            border: 3px dashed springgreen;        
+                a*5
+                
         }
 
 
     </style>
 </head>
 <body>
-    <div class="container">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-        <div>6</div>
-
-    </div>
-    <div class="user">
-        <div class="user">user-1</div>
-        <div class="user">user-2</div>
-        <div class="user">user-3</div>
-        <div class="user">user-4</div>
-        <div class="user">user-5</div>
-        <div class="user">user-6</div>
-        <div class="user">user-7</div>
-        <div class="user">user-8</div>
-        <div class="user">user-9</div>
-        <div class="user">user-10</div>
-        <div class="user">user-11</div>
-        <div class="user">user-12</div>
-    </div>
-    
-    </div>
-    
+    <h1 >Flexbox Layout</h1>
+        <div class="container">
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+            <div class="box">Box 5</div>
+            <div class="box">Box 6</div>
+            <div class="box">Box 1</div>
+            <div class="box">Box 2</div>
+            <div class="box">Box 3</div>
+            <div class="box">Box 4</div>
+            <div class="box">Box 5</div>
+            <div class="box">Box 6</div>
+        </div>
 </body>
 </html>
