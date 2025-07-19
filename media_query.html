@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            
+
+        }
+
+        .food{
+            border: 2px solid orange;
+            border-radius: 10px;
+        }
+        .food img{
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+        }
+
+        .food button{
+            background-color: #4E47FF;
+    font-weight: 700;
+    color: white;
+    padding: 18px 35px;
+    font-size: 10px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    text-decoration-line: none;
+        }
+        .food button:hover{
+            background-color: skyblue;
+        }
+        @media screen and (max-width: 576px)
+        {
+            .container{
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                background-color: aqua;
+            }
+        }
+        @media screen and (min-width: 577px) and (max-width: 992px)
+        {
+            .container{
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .food{
+                background-color: aqua;
+            }
+        }
+        
+       
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 1</h3>
+            <p>price - $100</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi dolores velit ab qui quasi molestias, dignissimos excepturi fugiat officiis ipsa.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 2</h3>
+            <p>price - $200</p>
+            <p>Culpa perferendis vitae harum voluptate, ad minus facilis dicta magnam dolorum doloremque voluptatum suscipit veniam blanditiis itaque eaque deleniti facere.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 3</h3>
+            <p>price - $300</p>
+            <p>Ad ducimus similique laborum ipsum natus dolorem, eum unde tempora. Laboriosam in corrupti ab odio nisi aperiam inventore facilis culpa?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 4</h3>
+            <p>price - $400</p>
+            <p>Nemo quaerat mollitia, sit soluta tempore voluptatum eligendi! Magni pariatur, veniam nostrum sed voluptates expedita dolor unde quo deleniti sit?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 5</h3>
+            <p>price - $500</p>
+            <p>Debitis nisi odio explicabo dolores, numquam rerum. Ipsa, fuga distinctio possimus veritatis, et modi unde excepturi quisquam adipisci expedita eveniet.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 6</h3>
+            <p>price - $600</p>
+            <p>Eaque placeat ducimus dicta temporibus, praesentium ullam sequi quidem eos iste aliquid molestiae repudiandae inventore ab consequuntur sapiente. Placeat, odio?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 7</h3>
+            <p>price - $700</p>
+            <p>In tempore accusantium eius placeat labore quis consectetur sed aut reiciendis nulla temporibus et excepturi, reprehenderit sapiente dolorum soluta repellendus?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 8</h3>
+            <p>price - $800</p>
+            <p>Sequi perspiciatis ex pariatur, totam excepturi incidunt a accusantium consequuntur vero maiores culpa, suscipit facere harum. Deserunt nemo libero facilis!</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 9</h3>
+            <p>price - $900</p>
+            <p>Ipsa eum, totam ullam nulla eos repellat tempore, et voluptates dolor laboriosam praesentium iusto maiores modi deleniti dolore, possimus earum.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 10</h3>
+            <p>price - $1000</p>
+            <p>Unde, quibusdam fugit, excepturi odit soluta placeat accusantium maiores earum nulla eligendi porro a libero iste totam id quae error.</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 11</h3>
+            <p>price - $1100</p>
+            <p>Veniam itaque laudantium voluptatum error autem ipsam vitae nihil minus impedit libero facilis, ad laboriosam. Aliquid rerum expedita voluptatibus quos?</p>
+            <button>Buy Now</button>
+        </div>
+        <div class="food">
+            <img src="./styles/pizza.jpg" alt="">
+            <h3 class="">Food Item - 12</h3>
+            <p>price - $1200</p>
+            <p>Pariatur provident numquam, nihil officiis repudiandae consectetur sapiente, quam sed aliquid repellendus perspiciatis voluptas itaque qui aut eveniet nesciunt exercitationem.</p>
+            <button>Buy Now</button>
+        </div>
+    </div>
+</body>
+</html>
